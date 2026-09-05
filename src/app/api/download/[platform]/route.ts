@@ -20,6 +20,7 @@ export async function GET(request: NextRequest, { params }: { params: { platform
 // New regex to extract Video ID including YouTube Shorts
 function extractVideoId(videoUrl: string): string | null {
   const regex = /(?:youtube\.com\/(?:[^\/]+\/.+\/|(?:v|e(?:mbed)?)\/|.*[?&]v=)|youtu\.be\/|youtube\.com\/shorts\/)([^"&?\/\s]{11})/;
+
   const match = videoUrl.match(regex);
   return match ? match[1] : null;
 }
