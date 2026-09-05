@@ -1,6 +1,7 @@
 // CURRENT IMPLEMENTATION ONLY ALLOWS YOUTUBE DOWNLOADING
 import { NextRequest } from "next/server";
-import  ytdl, { videoFormat } from 'ytdl-core';
+import ytdl, { videoFormat } from '@distube/ytdl-core';
+
 export async function GET(request: NextRequest, { params }: { params: { platform: string } }
 ) {
     const searchParams = request.nextUrl.searchParams
