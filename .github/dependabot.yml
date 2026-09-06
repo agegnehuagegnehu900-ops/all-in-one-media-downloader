@@ -1,0 +1,8 @@
+version: 2
+updates:
+  # npm dependenciesን (Next.js/ytdl-core) በየቀኑ ይፈትሻል
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+      
