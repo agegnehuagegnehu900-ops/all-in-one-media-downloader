@@ -1,69 +1,17 @@
+# 🚀 All-in-One Video and Shorts Downloader
 
-# Hi, I'm Saad! 👋
+A premium, fast, and secure full-stack web application built to download videos and shorts from YouTube, Facebook, and more in high quality (1080p, 720p, MP4, MP3). 
 
-# Project Name 
- online-video-downloader-nextjs
+## ✨ Features
+- **YouTube Shorts Support:** Easily download any YouTube Shorts video by pasting the link.
+- **High-Quality Formats:** Choose between various video qualities and audio formats.
+- **Serverless Architecture:** Fast response times with zero server delays, hosted fully on Vercel.
+- **100% Free & Secure:** No signup or hidden fees required.
 
-## Authors
+## 🛠️ Technology Stack
+- **Frontend & Backend:** Next.js (React) & TypeScript
+- **Styling:** Tailwind CSS
+- **Core Engine:** @distube/ytdl-core
 
-- [@saadi925](https://www.github.com/saadi925)
-
-
-# Project Title
-
-express-samplets-starter
-
-
-## Installation
-
-Clone the repository:
-
-https://github.com/saadi925/online-video-downloader-nextjs.git
-
-cd express-samplets-starter
-
-Install dependencies:
-
-npm install
-
-or
-
-yarn install
-
-or 
-
-pnpm install
-
-## Scripts
-
-Start the development server with hot reloading  : npm run dev 
-
-Compile TypeScript to JavaScript
-:
-npm run build
-
-
-Start the production server
-:npm start
-
-Run ESLint to check for linting errors:
-npm run lint
-
-
-Format the code using Prettier:
-npm run format
-## Support
-
-For support, email userid925925@gmail.com
-
-
-## Features
-
-- Youtube Video Download
-- Genric Endpoints are used with type guards so users can implement more methods easily
-- Customizable ensuring Type safety
-## Contributing
-
-Contributions are always welcome!
-
-Please adhere to this project's `code of conduct`.
+## 📜 License
+This project is released under the **MIT License**. You are free to use, modify, and distribute this application for personal or commercial purposes.
